@@ -1,3 +1,11 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #595959 ;
+ }
 header{
     background-color:#ad266f;
     padding: 20px
@@ -8,8 +16,8 @@ h1{
 
 #logo{
     border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 @font-face {
@@ -62,7 +70,7 @@ form label, form p{/*vamos reaplicar a mesma configuração
     cursor: pointer;
 }
 .enviar:hover{
-    background-color:rgb(165, 65, 123) ;
+    background-color:#d6559a ;
     transform: scale(1.2);
 }
 .copyright{
@@ -73,7 +81,7 @@ form label, form p{/*vamos reaplicar a mesma configuração
 
 footer{
     text-align: center;
-    background-color: #ad266f;
+    background-color: #e05ea3;
     padding: 30px 0;
 
 }
