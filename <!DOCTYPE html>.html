@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="header{.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="Logo.png">
+            <h1 class="titulo-principal"> Floricultura </h1>
+        </header>
+
+        <main>
+            <form>
+                <h3><label for="nomesobrenome">Nome e Sobrenome</label></h3>
+                <input type="text" name="nome" id="nomesobrenome" 
+                class="input-padrao" placeholder="Seu Nome e Sobrenome" required >
+                <br><br>
+                <label for="email" class="labelinput">Email</label>
+                <input type="text" name="email" id="email"
+                class="input-padro" placeholder="seuemail@dominio.com" required>
+                <br><br>
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone"
+                class="input-padrao" placeholder="(xx)xxxxx-xxxx"required>
+                <br><br>
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem"
+                placeholder="Digite seu texto aqui." required></textarea>
+
+                <section>
+                    <p>Como prefere nosso contato</p>
+                    <input type="radio" name="contato" value="email" 
+                    id="radio-email">
+                    <label for="radio-email">Email</label>
+                    <br><br>
+
+                    <input type="radio" name="contato" value="telefone" 
+                    id="radio-telefone">
+                    <label for="radio-telefone">Telefone</label>
+                    <br><br>
+
+                    <input type="radio" name="contato" value="whatsapp" 
+                    id="radio-wathsapp">
+                    <label for="radio-wathsapp">Whatsapp</label>
+                    <br><br>
+
+                </section>
+
+                <section>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <!---dropdow- seleções selecionác=veis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </section>
+                 
+                <label calss="checkbox">
+                    <input type="checkbox">Gostaria de receber nossas novidades por Email?</label>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+
+                    <footer><!--rodapé-->
+                        <p class="copyright">&copy; copyright Pietra Greff-2023 </p>
+                
+                    </footer>
+            </form>
+        </main>
