@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+    <head> 
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </html> 
+    <body> 
+        <div class="Cabecalho">
+        <img src="computadorlogo.png"/>
+           Informática  </div>
+           <div class="Conteudo"> jjgg</div>
+        <div class="Rodape">Endereço: XXXX,Fone:XX-XXXX-XXXX,Cascavel-PR </div>
+    </body>    
+            
+</html>
