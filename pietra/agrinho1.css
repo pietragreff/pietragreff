@@ -1,0 +1,134 @@
+*{padding: 0; margin: 0;}
+header{
+    background-image: linear-gradient(to right, #98988bf6, #3b3a38);
+    padding: 2px;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+.titulo-principal{
+    position: absolute;
+    font-family: 'Ananda', sem serifa;
+    top: 20%;
+    left: 30%;
+    transform: translate(-30%, -15%);
+    font-size: 70px;
+    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+            
+            -1px -1px 0px rgb(4, 2, 2),
+            -1px  4px 0px ( #543e19),
+            1px -1px 0px rgb(165, 34, 132),
+            1px 0px 0px rgb(255, 255, 255);
+}
+
+nav{
+    position: absolute;
+    top: 180px;
+    right: 50px
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Ananda', sem serifa;
+}
+
+
+
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px ;/*margem superior e inferior de 40px, para os lados 0*/
+    margin-left: 100px;
+    
+}
+
+form label, form p{
+    /*Vamos resplicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/*para baixo*/
+    padding: 10px 25px; /*largura dos meus inputs*/
+    text-align: center;
+}
+
+input::placeholder{
+    color: rgb(4, 4, 4);
+    
+}
+
+.checkbox{
+    margin: 20px 0; /*20 px p/ cima e p/baixo e zero nas laterais*/
+    
+}
+
+.enviar{
+    width: 250px;
+    padding: 15px 0;
+    background-color: rgb(143, 33, 125);
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    border: none;
+    border-radius: 15px;
+    transition: 1.0s all;
+    cursor: pointer;
+    margin-left: 300px;
+    
+
+}
+body{
+    background-image: url(Untitled\ Project.jpg);
+    background-position: 500px;
+   
+
+}
+
+.copyright{
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 0 ;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(to right, #98988bf6, #3b3a38);
+    padding: 1px 0 0;
+}
+
+fieldset{
+    border-radius: 22px;
+    border: 1px solid #827a7a;
+    padding: 15px;
+}
+
+
+
+
+    
+
+#logo1{
+    border-radius: 5px;
+}
